@@ -11,4 +11,4 @@ In this project, I learnt about:
 7. What is a sequence
 8. What is tuple packing
 9. What is sequence unpacking
-10. What is the del statement and how to use it
+10. What is the del statement and how to use it.
