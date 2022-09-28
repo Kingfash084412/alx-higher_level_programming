@@ -1,4 +1,4 @@
-# 0x04. Python - More Data Structures: Set, Dictionary
+# 0x04. Python - More Data Structures: Set and Dictionary
 
 ## Learnt:
 - What are sets and how to use them.
