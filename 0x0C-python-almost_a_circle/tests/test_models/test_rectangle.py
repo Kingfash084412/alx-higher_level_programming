@@ -1,8 +1,5 @@
-###This module needs to be revised
-
 #!/usr/bin/python3
 """Defines unittests for models/rectangle.py.
-
 Unittest classes:
     TestRectangle_instantiation - line 25
     TestRectangle_width - line 114
@@ -456,7 +453,6 @@ class TestRectangle_stdout(unittest.TestCase):
     @staticmethod
     def capture_stdout(rect, method):
         """Captures and returns text printed to stdout.
-
         Args:
             rect (Rectangle): The Rectangle to print to stdout.
             method (str): The method to run on rect.
