@@ -1,3 +1,7 @@
+ <p align="center">
+  <img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/272/rtcwz.jpg">
+</p>
+
 # 0x0D-SQL_introduction
 
 In this project, I learnt the following:
