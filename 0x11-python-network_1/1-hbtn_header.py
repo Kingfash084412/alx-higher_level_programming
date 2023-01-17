@@ -1,14 +1,15 @@
 #!/usr/bin/python3
-
-from sys import argv
-from urllib.request import urlopen, Request
+"""A script that:
+- takes in a URL,
+- sends a request to the URL and displays the value
+- of the X-Request-Id variable found in the header ofthe response.
+"""
+import sys
+import urllib.request
 
 if __name__ == "__main__":
+    url = sys.argv[1]
 
-    req = Request(argv[1])
-
-    with urlopen(req) as response:
-
-        allinfo = response.info()
-
-        print(allinfo.get('X-Request-Id'))
+    request = urllib.request.Request(url)
+    with urllib.request.urlopen(request) as response:
+        print(dict(response.headers).get("X-Request-Id"))
